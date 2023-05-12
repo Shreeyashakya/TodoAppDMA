@@ -26,5 +26,5 @@
 
     <string name="By_Shreeya_Shakya">By Shreeya Shakya</string>
     <string name="todoApplication_AppTitle">Todo Application</string>
-
+    <string name="category_TaskTitle">Tasks</string>
 </resources>

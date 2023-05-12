@@ -13,7 +13,7 @@
         android:layout_marginTop="148dp"
         android:fontFamily="sans-serif-medium"
         android:text="@string/register"
-        android:textColor="@color/purple"
+        android:textColor="@color/teal_700"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +36,9 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/user_name"
-            android:textColor="@color/purple" />
+            android:textColor="@color/teal_200"
+            android:textSize="20dp"/>
+
         <EditText
             android:id="@+id/register_activity_username"
             android:layout_width="match_parent"
@@ -52,7 +54,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/new_password"
-            android:textColor="@color/purple" />
+            android:textColor="@color/teal_200"
+            android:textSize="20dp"/>
 
         <EditText
             android:id="@+id/register_activity_password"
@@ -69,7 +72,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/confirm_password"
-            android:textColor="@color/purple" />
+            android:textColor="@color/teal_200"
+            android:textSize="20dp"/>
 
         <EditText
             android:id="@+id/register_activity_confirm_password"
@@ -79,16 +83,6 @@
             android:hint="@string/confirm_password"
             android:inputType="textPassword"
             android:minHeight="48dp" />
-
-        <Button
-            android:id="@+id/register_activity_login_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:backgroundTint="#5CFFFFFF"
-            android:text="@string/log_in"
-            android:textColor="#000000" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -102,9 +96,19 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:backgroundTint="@color/purple"
+                android:backgroundTint="@color/teal_700"
                 android:text="@string/register" />
         </LinearLayout>
+
+        <Button
+            android:id="@+id/register_activity_login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#5CFFFFFF"
+            android:text="@string/log_in"
+            android:textColor="@color/teal_700" />
 
     </LinearLayout>
 

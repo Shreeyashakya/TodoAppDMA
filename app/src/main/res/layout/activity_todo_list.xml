@@ -16,10 +16,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="11dp"
-        android:text="TextView"
-
+        android:text="@string/category_TaskTitle"
         android:textAlignment="center"
+        android:textColor="@color/teal_700"
+
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/activity_todo_list_rv_todo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
